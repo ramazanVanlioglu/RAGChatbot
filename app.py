@@ -11,7 +11,7 @@ nest_asyncio.apply()#-> Mevcut event loop'u düzeltir
 
 #*bot api anahtarınızı buraya yapıştırın!
 
-API_KEY="8047104316:AAHYTKPmjHD84-UZzqU8RWbp7E4x7i2oQCU"
+API_KEY="YOUR_API_KEY" # API is special for each person. So do not share it in public!
 
 #Gelen mesajları işleyen fonksiyon:
 async def handle_message(update:Update, context: ContextTypes.DEFAULT_TYPE):
